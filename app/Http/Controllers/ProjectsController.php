@@ -57,7 +57,7 @@ class ProjectsController extends Controller
            'description' => 'required'
         ]);
 
-
+        //Create Project
          $project = new Project;
          $project->project_name = $request->input('title');
          $project->project_to = $request->input('projectTo');
